@@ -1,4 +1,7 @@
 ' VBscript Stands for Visual Basic Scripting. It is a scripting language.
+'It works on Windows OS.
+
+
 ' Dim is used declaration of variables.
 ' Case insensitive Eg: Dim VALUE|
 ' Variable names cannot contain spaces Eg: Dim My Value (Invalid)
@@ -14,3 +17,11 @@ WScript.Echo value ' This prints the value of the variable value to the console
 msgbox "The value is " & value ' This shows a message box with the value of the variable value
 ' You can also use the MsgBox function to display a message box with a custom message.
 ' The & operator is used to concatenate (join) strings in VBScript.
+
+nonDeclaredVariable = 20 ' This assigns the value 20 to a variable that has not been declared
+WScript.Echo nonDeclaredVariable ' This prints the value of the non-declared variable to the console
+msgbox "The non-declared variable is " & nonDeclaredVariable ' This shows a message box with the value of the non-declared variable
+' In VBScript, you can assign values to variables without declaring them first. However, it is a good practice to declare variables using the Dim statement to avoid potential issues with variable scope and naming conflicts.
+' VBScript does not have strict data types, so you can assign different types of values to the same variable without any type declaration.
+
+
