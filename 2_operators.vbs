@@ -31,3 +31,10 @@ msgbox "Modulus: " & modulus
 exponent = a ^ 2
 WScript.Echo exponent
 msgbox "Exponentiation: " & exponent
+
+'ii) Comparison
+
+'ii) Concatenation
+
+'iv) Logical
+  

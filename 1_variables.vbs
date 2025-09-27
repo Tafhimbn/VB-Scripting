@@ -25,24 +25,29 @@ msgbox "The value of myVariable is " & myVariable ' This shows a message box wit
 
 'Explicitly Typed Variables: VBScript does not support explicitly typed variables like some other programming languages (e.g., Dim myVariable As Integer). All variables in VBScript are of the Variant data type by default.
 ' 1. String: Used to store text. Eg: Dim myString: myString = "Hello, World!"   
-Dim myname = "Tafhim Bin NAsir"
+Dim myname
+myname = "Tafhim Bin NAsir"
 WScript.Echo myname
 msgbox "My name is " & myname
 
 ' 2. Integer: Used to store whole numbers. Eg: Dim myInteger: myInteger = 42
-Dim mybirthYear = 1998
+Dim mybirthYear
+mybirthYear = 1998
 WScript.Echo mybirthYear
 msgbox "My birth year is " & mybirthYear
 ' 3. Long: Used to store larger whole numbers. Eg: Dim myLong: myLong = 1234567890
-Dim myNumber = 1234567890   
+Dim myNumber
+myNumber = 1234567890
 WScript.Echo myNumber
 msgbox "My number is " & myNumber
 ' 4. Single: Used to store single-precision floating-point numbers. Eg: Dim mySingle: mySingle = 3.14
-Dim age = 26.5
+Dim age
+age = 26.5
 WScript.Echo age
 msgbox "My age is " & age
 ' 5. Double: Used to store double-precision floating-point numbers. Eg: Dim myDouble: myDouble = 3.14159265358979
-Dim pi = 3.14159265358979
+Dim pi
+pi = 3.14159265358979
 WScript.Echo pi
 msgbox "The value of pi is " & pi
 ' 6. Currency: Used to store monetary values. Eg: Dim myCurrency: myCurrency = 19.99

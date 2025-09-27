@@ -12,6 +12,7 @@
 ' VBScript is not case-sensitive, meaning that variable names and keywords are treated the same regardless of their case.
 
 Dim value ' This declares a variable named value
+'Dim is only for declaring variables, not assigning values (EX. Dim a = 10 is invalid)
 value = 10 ' This assigns the value 10 to the variable value
 WScript.Echo value ' This prints the value of the variable value to the console
 msgbox "The value is " & value ' This shows a message box with the value of the variable value
