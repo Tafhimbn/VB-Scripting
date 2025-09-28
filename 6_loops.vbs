@@ -93,7 +93,6 @@ WScript.Echo "---------------------"
     Loop Until num > 5
     WScript.Echo "---------------------"
 
-
 ' 4. While...Wend
 WScript.Echo "While...Wend Loop:"
 num = 1
