@@ -47,14 +47,14 @@ WScript.Echo "---------------------"
 '        Do [While condition | Until condition]
 '            ' Statements
 '        Loop
-WScript.Echo "Do...Loop:"
-count = 1
+    WScript.Echo "Do...Loop:"
+    count = 1
 
-Do While count <= 5
-    WScript.Echo "Count is " & count
-    count = count + 1
-Loop
-WScript.Echo "---------------------"
+    Do While count <= 5
+        WScript.Echo "Count is " & count
+        count = count + 1
+    Loop
+    WScript.Echo "---------------------"
 
 ' b) Do...Loop While (check after)
 '        Do
@@ -62,36 +62,36 @@ WScript.Echo "---------------------"
 '        Loop [While condition | Until condition]
 
 '        condition → loop continues while true (While) or until true (Until)
-num = 1
-Do
-    WScript.Echo "Number is " & num
-    num = num + 1
-Loop While num <= 5 
-WScript.Echo "---------------------"
+    num = 1
+    Do
+        WScript.Echo "Number is " & num
+        num = num + 1
+    Loop While num <= 5 
+    WScript.Echo "---------------------"
 
 ' c) Do Until...Loop (check before)
 '        Do Until condition
 '            ' Statements
 '        Loop
 '        condition → loop continues until true
-num = 1
-Do Until num > 5
-    WScript.Echo "Number is " & num
-    num = num + 1
-Loop
-WScript.Echo "---------------------"
+    num = 1
+    Do Until num > 5
+        WScript.Echo "Number is " & num
+        num = num + 1
+    Loop
+    WScript.Echo "---------------------"
 
 ' d) Do...Loop Until (check after)
 '        Do
 '            ' Statements
 '        Loop Until condition
 '        condition → loop continues until true
-num = 1
-Do Until num > 5
-    WScript.Echo "Number is " & num
-    num = num + 1
-Loop
-WScript.Echo "---------------------"
+    num = 1
+    Do 
+        WScript.Echo "Number is " & num
+        num = num + 1
+    Loop Until num > 5
+    WScript.Echo "---------------------"
 
 
 ' 4. While...Wend
